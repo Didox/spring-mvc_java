@@ -1,8 +1,5 @@
 package com.spring.danilo.web.teste.controllers;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.spring.danilo.web.teste.models.Cliente;
 
 import org.springframework.stereotype.Controller;
