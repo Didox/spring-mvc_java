@@ -23,6 +23,10 @@ public class Cliente {
     }
 
     public boolean validarCpf() {
+        if(this.cpf == null) return false;
+        
+        this.cpf = this.cpf.replace(".", "").replace("-", "");
+
         if (this.cpf.equals("00000000000") || this.cpf.equals("11111111111") || this.cpf.equals("22222222222")
                 || this.cpf.equals("33333333333") || this.cpf.equals("44444444444") || this.cpf.equals("55555555555")
                 || this.cpf.equals("66666666666") || this.cpf.equals("77777777777") || this.cpf.equals("88888888888")
