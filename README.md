@@ -12,3 +12,7 @@ mvn spring-boot:run
 
 ### start app ###
 ./mvnw spring-boot:run -p 8081
+
+
+### mvn clean ###
+mvn clean install
