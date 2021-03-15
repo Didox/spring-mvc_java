@@ -4,12 +4,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.spring.danilo.web.teste.models.Cliente;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class TesteApplicationTests {
 
+	@DisplayName("Testando instancia de um objeto")
 	@Test
 	void instanciaClienteDanilo() {
 		Cliente cliente = new Cliente();

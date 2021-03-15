@@ -13,7 +13,7 @@ public class HomeController {
     @GetMapping("/")
     @RequestMapping(method = RequestMethod.GET)
 	public String index(Model model) {
-        var cliente = new Cliente();
+        Cliente cliente = new Cliente();
         cliente.setNome("Danilo");
         
         model.addAttribute("cliente", cliente);
