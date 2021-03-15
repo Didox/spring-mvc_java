@@ -11,4 +11,4 @@ mvn spring-boot:run
 ./mvnw test
 
 ### start app ###
-./mvnw spring-boot:run
+./mvnw spring-boot:run -p 8081
